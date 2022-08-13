@@ -5,4 +5,107 @@
 /*font-family: 'Rajdhani', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
 
+body{
+    background-image: url("../img/backgrounds/full_back.png");
+}
+.container{
+    width: 1393.98px;
+    margin: 0 auto;
+}
 
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    margin-top: 10px;
+}
+.header__icon{
+    width: 16.58px;
+    height: 26.81px;
+    background: url("../img/icons/eth_color.svg") no-repeat;
+    background-size: 100% 100%;
+}
+.header__logo__logo{
+    width: 117.18px;
+    height: 25.43px;
+    background: url("../img/logo.svg") no-repeat;
+
+}
+.header__list{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+    gap: 66.33px;
+    padding-right: 303px;
+}
+.header__link{
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.user{
+    display: flex;
+    gap: 44.5px;
+}
+
+.user__bucket{
+    width: 22.5px;
+    height: 21.56px;
+    background: url("../img/icons/bucket.svg") center no-repeat;
+    background-size: 100%
+}
+.user__profile{
+    width: 22.1px;
+    height: 22.1px;
+    background: url("../img/icons/profile.svg");
+    background-size: 100%
+
+}
+.main__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__title{
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 66.3276px;
+    line-height: 137.4%;
+    color: #FFFFFF;
+}
+.main__word{
+    background-image: linear-gradient(80deg, #FF56F6, #43A5E3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main__desc{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.531px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.main__text{
+
+
+}
+.main__img{
+    width: 402px;
+    height: 477px;
+    background: url("../img/nft/abstract.svg");
+}
