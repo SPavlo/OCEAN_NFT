@@ -23,20 +23,14 @@ body{
 .header__logo{
     display: flex;
     align-items: center;
-    padding-left: 19px;
-    margin-top: 10px;
+    padding-left: 13px;
+    margin-top: -3px;
 }
 .header__icon{
-    width: 16.58px;
-    height: 26.81px;
-    background: url("../img/icons/eth_color.svg") no-repeat;
-    background-size: 100% 100%;
-}
-.header__logo__logo{
-    width: 117.18px;
-    height: 25.43px;
-    background: url("../img/logo.svg") no-repeat;
-
+    width: 144.18px;
+    height: 29.43px;
+    background: url("../img/ocean_logo.svg") no-repeat ;
+    background-size: cover;
 }
 .header__list{
     text-decoration: none;
@@ -45,7 +39,7 @@ body{
     list-style-type: none;
 
     gap: 66.33px;
-    padding-right: 303px;
+    padding-right: 309px;
 }
 .header__link{
     text-decoration: none;
@@ -83,8 +77,9 @@ body{
     font-family: 'League Spartan', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 66.3276px;
+    font-size: 82px;
     line-height: 137.4%;
+    letter-spacing: calc(82*.015px);
     color: #FFFFFF;
 }
 .main__word{
