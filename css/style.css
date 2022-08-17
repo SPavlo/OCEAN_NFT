@@ -339,6 +339,10 @@ body{
     font-size: 26.531px;
     color: #FFFFFF;
 }
+.top__cards{
+    display: flex;
+    gap: 34.5px;
+}
 .top__header__title{
 
 }
@@ -364,7 +368,7 @@ body{
     display: flex;
     margin-top: 13px;
     align-items: center;
-    gap: 3.32px;
+    gap: 4.32px;
 }
 .top__card__avatar{
     width: 37px;
@@ -394,10 +398,11 @@ body{
     margin-bottom: 7px;
 }
 .top__card__price{
+    margin-top: 11px;
     display: flex;
     align-items: center;
-    gap: 2.53px;
-    margin-left: -5px;
+    gap: 6.53px;
+    margin-left: -1px;
 }
 .top__card__logo{
     width: 16.44px;
@@ -418,14 +423,14 @@ body{
     color: #FFFFFF;
     opacity: 0.7;
     margin-top: 2px;
-    margin-left: 4px;
+    margin-left: 2px;
 }
 .top__card__left{
     padding: 30px 31px;
 }
 .top__card__right{
-    padding-top: 39.64px;
-    padding-left: 45px;
+    padding-top: 38.64px;
+    padding-left: 31px;
 }
 .top__card__auction{
     font-family: 'Rajdhani', sans-serif;
@@ -436,7 +441,7 @@ body{
     opacity: 0.7;
     margin-bottom: 7px;
     margin-top: 11px;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 .top__card__list{
     display: flex;
@@ -444,7 +449,7 @@ body{
     padding-left: 0;
     text-align: center;
     margin-top: 9px;
-    margin-left: 4px;
+    margin-left: 8px;
     gap: 21.9px;
 }
 .top__card__item{
@@ -470,7 +475,7 @@ body{
     height: 53.59px;
     background: red;
     background: linear-gradient(271.23deg, #FFA6FA 50%, #3C79D4 90%);
-    margin-top: 30px;
+    margin-top: 39px;
 }
 .top__card__link{
     text-decoration: none;
@@ -496,3 +501,42 @@ body{
     margin-left: 10px;
 
 }
+.collection{
+    display: flex;
+}
+.collection__title{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    color: #FFFFFF;
+}
+.collection__list{
+    display: flex;
+    flex-wrap:wrap;
+}
+.collection__item{
+    flex: 0 1 376.12px;
+    width: 369.12px;
+    height: 105px;
+    line-height: 106.39px;
+    background: url(../img/collection_border.png) no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    text-align: center;
+    margin: 19px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.collection__btn{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8983px;
+    color: #FFFFFF;
+    right: 0;
+}
+
