@@ -537,6 +537,167 @@ body{
     font-weight: 700;
     font-size: 19.8983px;
     color: #FFFFFF;
-    right: 0;
+    text-align: right;
 }
+.collector__list{
+    display: flex;
 
+}
+.collector__item{
+    position: relative;
+    flex: 0 1 437.76px;
+    font-family: 'Rajdhani',sans-serif;
+    backdrop-filter: blur(79.2003px);
+    box-sizing: border-box;
+    border: 2.8px solid #3B2E61;
+
+}
+.collector__avatar{
+    position: absolute;
+    top: 101px;
+    left: 135px;
+}
+.collector__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.3201px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 65.5px;
+    margin-left: 2px;
+}
+.collector__teg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1601px;
+    color: #FFB1EE;
+    margin-top: 7px;
+    margin-left: 23px;
+}
+.collector__icon{
+    width: 18px;
+    margin-top: -2px;
+    margin-left: 5px;
+
+}
+.collector__nums{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+    padding: 0 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.6897px;
+    color: #FFFFFF;
+}
+.collector__info{
+    display: flex;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8061px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 2px;
+    padding: 0 9px;
+}
+.collector__btn{
+    background: url("../img/btn_back_grad.png");
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.8983px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 240.84px;
+    height: 55.85px;
+    line-height: 50.8px;
+    margin-top: 41px;
+    margin-left: 100px;
+    box-shadow: 0 4.81747px 116.824px rgba(255, 86, 246, 0.51);
+}
+.sellers{
+    font-family: 'Roboto',sans-serif;
+
+}
+.sellers__title{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sellers__desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.6873px;
+    color: #FFFFFF;
+    width: 506.3px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sellers__list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.seller__item{
+    flex: 0 1 33%;
+    display: flex;
+    position: relative;
+    background: url("../img/sellers_border.png") no-repeat;
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    height: 123.81px;
+    color: #FFFFFF;
+    margin-bottom: 34.27px;
+}
+.seller__num{
+    font-size: 19.0479px;
+    opacity: 0.8;
+    padding-left: 29.63px;
+}
+.seller__avatar{
+    width: 69.64px;
+    margin-top: 1px;
+    padding-left: 16.22px;
+
+}
+.seller__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0479px;
+    padding-left: 13.4px;
+}
+.seller__eth{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13.7568px;
+    opacity: 0.8;
+    padding-top: 14.72px;
+    padding-left: 13px;
+}
+.seller__icon{
+    padding-right: 3px;
+
+}
+.seller__percent{
+    position: absolute;
+    bottom: 35px;
+    right: 46px;
+    font-weight: 500;
+    width: 100.6px;
+    height: 35.37px;
+    font-size: 14.7012px;
+    color: #00FF66;
+    text-align: center;
+    line-height: 35.37px;
+    background: url("../img/seller_percent.png");
+    margin-left: 62.61px;
+    margin-top: 16px;
+}
