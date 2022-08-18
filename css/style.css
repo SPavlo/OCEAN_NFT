@@ -655,6 +655,7 @@ body{
     height: 123.81px;
     color: #FFFFFF;
     margin-bottom: 34.27px;
+    margin-right: 13px;
 }
 .seller__num{
     font-size: 19.0479px;
@@ -700,4 +701,60 @@ body{
     background: url("../img/seller_percent.png");
     margin-left: 62.61px;
     margin-top: 16px;
+}
+.sellers__btn{
+    margin: 0 auto;
+}
+.minus-margin{
+    margin-right: -15px;
+}
+.red-back{
+    background: url("../img/seller_border_red.png");
+    color: red;
+}
+.question{
+    position: relative;
+    background: url("../img/backgrounds/back_puple.png");
+    height: 556px;
+}
+.question__block{
+    position: absolute;
+    top: 217px;
+    right: 61px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    background: url("../img/question_back.png") no-repeat;
+    width: 577.05px;
+}
+.question__title{
+    font-weight: 800;
+    font-size: 44.5093px;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 18px;
+    margin-left: -68px;
+    letter-spacing: calc(13.51 *0.06px);
+
+}
+.question__desc{
+    font-weight: 400;
+    font-size: 20.0292px;
+    line-height: 36px;
+    width: 458.45px;
+    margin-left: 74px;
+    margin-bottom:49px;
+
+}
+.question__btns{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 72px;
+}
+.question__btns a{
+    text-decoration: none;
+    color: #FFFFFF;
+
 }
