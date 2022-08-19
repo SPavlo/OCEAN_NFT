@@ -4,6 +4,9 @@
 /*font-family: 'Orbitron', sans-serif;*/
 /*font-family: 'Rajdhani', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
+a{
+    text-decoration: none;
+}
 
 body{
     background-image: url("../img/backgrounds/full_back.png");
@@ -23,20 +26,13 @@ body{
 .header__logo{
     display: flex;
     align-items: center;
-    padding-left: 19px;
-    margin-top: 10px;
+    margin-top: -3px;
 }
 .header__icon{
-    width: 16.58px;
-    height: 26.81px;
-    background: url("../img/icons/eth_color.svg") no-repeat;
-    background-size: 100% 100%;
-}
-.header__logo__logo{
-    width: 117.18px;
-    height: 25.43px;
-    background: url("../img/logo.svg") no-repeat;
-
+    width: 144.18px;
+    height: 29.43px;
+    background: url("../img/ocean_logo.svg") no-repeat ;
+    background-size: cover;
 }
 .header__list{
     text-decoration: none;
@@ -45,7 +41,7 @@ body{
     list-style-type: none;
 
     gap: 66.33px;
-    padding-right: 303px;
+    padding-right: 309px;
 }
 .header__link{
     text-decoration: none;
@@ -57,6 +53,7 @@ body{
     color: rgba(255, 255, 255, 0.6);
 }
 .user{
+    margin-right: 15px;
     display: flex;
     gap: 44.5px;
 }
@@ -75,6 +72,7 @@ body{
 
 }
 .main__content{
+    margin-top: 23px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,8 +81,9 @@ body{
     font-family: 'League Spartan', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 66.3276px;
-    line-height: 137.4%;
+    font-size: 82px;
+    line-height: 111.4%;
+    letter-spacing: calc(82*.01px);
     color: #FFFFFF;
 }
 .main__word{
@@ -93,6 +92,8 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .main__desc{
+    margin-top: 20px;
+    margin-left: -4px;
     font-family: 'Rajdhani', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -100,12 +101,812 @@ body{
     line-height: 44px;
     color: #FFFFFF;
 }
+.main__buttons{
+    display: flex;
+    align-items: center;
+    gap: 37.59px;
+}
+.main__btn1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8983px;
+    background: url("../img/button.svg");
+    color: #FFFFFF;
+    width: 249.83px;
+    height: 64.12px;
+    line-height:64.12px;
+
+}
+.main__btn2{
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8983px;
+    background: linear-gradient(89.89deg, #42A6E3 2.33%, #FF56F6 101.4%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.main__link1{
+    text-decoration: none;
+}
+
+.main__list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+
+}
+
+.main__item{
+    font-family: 'Aldrich', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39.7965px;
+    color: #FFFFFF;
+    border-right: 1.10546px solid rgba(255, 255, 255, 0.26);
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.main__item:last-child{
+    border-right: none;
+}
+.main__span {
+    display: block;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -18px;
+}
+.main__logo{
+    display: flex;
+    justify-content: space-between;
+}
 .main__text{
 
 
 }
+.main__side{
+    position: relative;
+    width: 771.930px;
+    height: 540.57px;
+}
 .main__img{
     width: 402px;
-    height: 477px;
-    background: url("../img/nft/abstract.svg");
+    height: 485px;
+    background: url("../img/nft/abstract.png");
+}
+.main__card{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../img/card_back.svg");
+    width: 336.06px;
+    height: 181.3px;
+    backdrop-filter: blur(25.8003px);
+    display: flex;
+    gap:22.4px;
+}
+.card__left{
+    padding-left: 24.41px;
+    padding-top: 23.64px;
+}
+.card__right{
+    padding-top: 27.64px;
+}
+.card__title{
+    width: 148.13px;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.6873px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.card__user{
+    display: flex;
+    align-items: center;
+    gap: 3.32px;
+}
+.card__teg{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.4764px;
+}
+.card__desc{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0546px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 21px;
+    margin-bottom: 7px;
+
+}
+.card__price{
+    display: flex;
+    align-items: center;
+    gap: 2.53px;
+    margin-left: -5px;
+
+}
+.card__eth{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.71776px;
+    color: #FFFFFF;
+}
+.card__logo{
+    width: 19.44px;
+    height: 19.44px;
+}
+.card__dollar{
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.0546px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+.card__list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 4px;
+    gap: 21.9px;
+}
+.card__item{
+    margin: 0 14px 0 4px;
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.0546px;
+    color: #C6BBCB;
+
+}
+.card__span {
+    display: block;
+    color: white;
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1.5px;
+    font-size: 17.6873px;
+}
+.card__link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.card__btnborder{
+    position: relative;
+    width: 123.39px;
+    height: 41.59px;
+    background: red;
+    background: linear-gradient(271.23deg, #FFA6FA 50%, #3C79D4 90%);
+    border-radius: 4.21px;
+    margin-top: 30px;
+}
+.card__btn{
+    position: absolute;
+    width: 119.39px;
+    top:2.5px;
+    left: 2px;
+    height: 37.59px;
+    line-height:37.59px;
+    text-align: center;
+    background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    border-radius: 2.21092px;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.6873px;
+}
+.card__arrow{
+    margin-bottom: 2px;
+    width: 24.32px;
+    margin-left: 6px;
+
+}
+
+.card__auction{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11.0546px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    margin-left: 10px;
+}
+.top__header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    color: #FFFFFF;
+}
+.top__cards{
+    display: flex;
+    gap: 34.5px;
+}
+.top__header__title{
+
+}
+.top__card__content{
+    display: flex;
+    background: url("../img/card_border.svg");
+    width: 438.06px;
+    height: 236.3px;
+    margin-top: -5px;
+    backdrop-filter: blur(25.8003px);
+}
+.top__card__title{
+    width: 148.13px;
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 23.0401px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.top__card__user{
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    gap: 4.32px;
+}
+.top__card__avatar{
+    width: 37px;
+    height: 37px;
+}
+.top__card__teg{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.16px;
+}
+.top__card__icon{
+    padding-left: 4px;
+    width: 15px;
+    height: 17px;
+}
+.top__card__desc{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 27px;
+    margin-bottom: 7px;
+}
+.top__card__price{
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+    gap: 6.53px;
+    margin-left: -1px;
+}
+.top__card__logo{
+    width: 16.44px;
+    height: 25.44px;
+}
+.top__card__eth{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.66px;
+    color: #FFFFFF;
+}
+.top__card__dollar{
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.top__card__left{
+    padding: 30px 31px;
+}
+.top__card__right{
+    padding-top: 38.64px;
+    padding-left: 31px;
+}
+.top__card__auction{
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.4px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 7px;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+.top__card__list{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 8px;
+    gap: 21.9px;
+}
+.top__card__item{
+    margin: 0 8px 0 -2px;
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4546px;
+    color: #C6BBCB;
+}
+.top__card__span{
+    display: block;
+    color: white;
+    font-family: 'Rajdhani',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0.5px;
+    font-size: 23.6873px;
+}
+.top__card__btnborder{
+    position: relative;
+    width: 162.39px;
+    height: 53.59px;
+    background: red;
+    background: linear-gradient(271.23deg, #FFA6FA 50%, #3C79D4 90%);
+    margin-top: 39px;
+}
+.top__card__link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.top__card__btn{
+    position: absolute;
+    width: 157.52px;
+    top: 2.5px;
+    left: 2.5px;
+    height: 48.96px;
+    line-height: 47.96px;
+    text-align: center;
+    background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
+    font-family: 'Rajdhani', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22.4px;
+}
+.top__card__arrow{
+    margin-bottom: 1px;
+    width: 31.32px;
+    margin-left: 10px;
+
+}
+.collection{
+    display: flex;
+}
+.collection__title{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    color: #FFFFFF;
+}
+.collection__list{
+    display: flex;
+    flex-wrap:wrap;
+}
+.collection__item{
+    flex: 0 1 376.12px;
+    width: 369.12px;
+    height: 105px;
+    line-height: 106.39px;
+    background: url(../img/collection_border.png) no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    text-align: center;
+    margin: 19px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.collection__btn{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.8983px;
+    color: #FFFFFF;
+    text-align: right;
+}
+.collector__list{
+    display: flex;
+
+}
+.collector__item{
+    position: relative;
+    flex: 0 1 437.76px;
+    font-family: 'Rajdhani',sans-serif;
+    backdrop-filter: blur(79.2003px);
+    box-sizing: border-box;
+    border: 2.8px solid #3B2E61;
+
+}
+.collector__avatar{
+    position: absolute;
+    top: 101px;
+    left: 135px;
+}
+.collector__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.3201px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 65.5px;
+    margin-left: 2px;
+}
+.collector__teg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.1601px;
+    color: #FFB1EE;
+    margin-top: 7px;
+    margin-left: 23px;
+}
+.collector__icon{
+    width: 18px;
+    margin-top: -2px;
+    margin-left: 5px;
+
+}
+.collector__nums{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 31px;
+    padding: 0 9px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.6897px;
+    color: #FFFFFF;
+}
+.collector__info{
+    display: flex;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.8061px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 2px;
+    padding: 0 9px;
+}
+.collector__btn{
+    background: url("../img/btn_back_grad.png");
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.8983px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 240.84px;
+    height: 55.85px;
+    line-height: 50.8px;
+    margin-top: 41px;
+    margin-left: 100px;
+    box-shadow: 0 4.81747px 116.824px rgba(255, 86, 246, 0.51);
+}
+.sellers{
+    font-family: 'Roboto',sans-serif;
+
+}
+.sellers__title{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26.531px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.sellers__desc{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.6873px;
+    color: #FFFFFF;
+    width: 506.3px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sellers__list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.seller__item{
+    flex: 0 1 33%;
+    display: flex;
+    position: relative;
+    background: url("../img/sellers_border.png") no-repeat;
+    font-style: normal;
+    font-weight: 500;
+    align-items: center;
+    height: 123.81px;
+    color: #FFFFFF;
+    margin-bottom: 34.27px;
+    margin-right: 13px;
+}
+.seller__num{
+    font-size: 19.0479px;
+    opacity: 0.8;
+    padding-left: 29.63px;
+}
+.seller__avatar{
+    width: 69.64px;
+    margin-top: 1px;
+    padding-left: 16.22px;
+
+}
+.seller__name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19.0479px;
+    padding-left: 13.4px;
+}
+.seller__eth{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13.7568px;
+    opacity: 0.8;
+    padding-top: 14.72px;
+    padding-left: 13px;
+}
+.seller__icon{
+    padding-right: 3px;
+
+}
+.seller__percent{
+    position: absolute;
+    bottom: 35px;
+    right: 46px;
+    font-weight: 500;
+    width: 100.6px;
+    height: 35.37px;
+    font-size: 14.7012px;
+    color: #00FF66;
+    text-align: center;
+    line-height: 35.37px;
+    background: url("../img/seller_percent.png");
+    margin-left: 62.61px;
+    margin-top: 16px;
+}
+.sellers__btn{
+    margin: 0 auto;
+}
+.minus-margin{
+    margin-right: -15px;
+}
+.red-back{
+    background: url("../img/seller_border_red.png");
+    color: red;
+}
+.question{
+    position: relative;
+    background: url("../img/backgrounds/back_puple.png");
+    height: 556px;
+}
+.question__block{
+    position: absolute;
+    top: 217px;
+    right: 58px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    background: url(../img/question_back.png) no-repeat;
+    width: 581.05px;
+}
+.question__title{
+    font-weight: 800;
+    font-size: 43.5093px;
+    text-align: center;
+    margin-top: 62px;
+    margin-bottom: 24px;
+    margin-left: -55px;
+    letter-spacing: calc(25.51 *0.05px);
+
+}
+.question__desc{
+    font-weight: 400;
+    font-size: 20.0292px;
+    line-height: 35.7px;
+    width: 458.45px;
+    margin-left: 75px;
+    margin-bottom:49px;
+    letter-spacing: calc(2.51 *0.05px);
+
+
+}
+.question__btns{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 76px;
+    margin-bottom: 55px;
+
+}
+.question__btns a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+.question__learn{
+    letter-spacing: calc(20.51 *0.05px);
+}
+.question__watch{
+    margin-left: 44px;
+}
+.question__btn{
+    display: block;
+    margin-top: -22px;
+    margin-left: 23px;
+    letter-spacing: calc(20.51 *0.05px);
+}
+.subscribe{
+    display: flex;
+    margin-top: 293.63px;
+}
+.subscribe__img{
+    width:698.65px;
+    height:289.63px;
+    background: url("../img/backgrounds/back_yellow.png") no-repeat;
+    margin-left:48px;
+}
+.subscribe__content{
+    font-family: 'Inter',sans-serif;
+    color: #FFFFFF;
+    width: 490.82px;
+    margin-left: 76.28px;
+    margin-top: 7px;
+
+}
+.subscribe__title{
+    font-family: 'Orbitron',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39.7965px;
+
+}
+.subscribe__desc{
+    font-weight: 400;
+    line-height: 35px;
+    width: 490px;
+    margin-top: 30px;
+    font-size: 19.9px;
+    letter-spacing: calc(2.51 *0.05px);
+}
+.subscribe__form{
+    display: flex;
+    margin-top: 48px;
+
+}
+.subscribe__input{
+    width: 240.15px;
+    height: 52.06px;
+    padding: 0 16px;
+    margin-left: -2px;
+    border-radius: 5.5273px 0 0 5.5273px;
+    background: #F4F5F7;
+}
+.subscribe__btn{
+    background:url("../img/subscribe_btn.png") no-repeat;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15.4764px;
+    width: 149.71px;
+    height: 53.64px;
+    line-height: 53.64px;
+    margin-left: 4px;
+    box-shadow: 0px 4.81747px 116.824px rgba(255, 86, 246, 0.51);
+
+}
+.subscribe__line{
+    width: 1338.71px;
+    height: 1.11px;
+    background: #FFFFFF;
+    opacity: 0.2;
+    margin-top: 160.37px;
+    margin-bottom: 96px;
+}
+footer{
+    font-family: 'Inter',sans-serif;
+
+}
+.footer__content{
+     display: flex;
+ }
+.footer__social{
+    flex: 0 0 320px;
+}
+
+.footer__logo{
+    width: 117.18px;
+    height: 25.43px;
+    background: url("../img/ocean_logo.svg") no-repeat ;
+    background-size: cover;
+}
+.footer__desc{
+    font-weight: 400;
+    font-size: 15.4764px;
+    line-height: 27px;
+    color: #D9DBE1;
+    width: 281.89px;
+    margin-top: 31px;
+}
+.footer__icons{
+    display: flex;
+    gap:17px
+}
+
+.footer__links{
+    flex: 1 1 auto;
+}
+.links_headers{
+    display: flex;
+    font-weight: 500;
+    font-size: 19.8983px;
+    color: #FFFFFF;
+    gap: 33.16px;
+}
+.footer__link{
+    width: 176.87px;
+
+}
+.links_headers a {
+    color: #FFFFFF;
+}
+.links__items{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.links__item{
+    flex: 0 1 20%;
+    font-weight: 400;
+    font-size: 15.4764px;
+    line-height: 27px;
+    color: #D9DBE1;
+}
+.footer__terms {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 15.4764px;
+    line-height: 27px;
+    color: #D9DBE1;
 }
