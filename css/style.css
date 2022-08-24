@@ -83,12 +83,23 @@ body{
 .main__title{
     font-family: 'League Spartan', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 82px;
-    line-height: 111.4%;
-    letter-spacing: calc(37*.02px);
+    line-height: 110.4%;
+
     color: #FFFFFF;
     width: 761px;
+}
+.main__title1{
+    margin: 0;
+    word-spacing: -5px;
+    letter-spacing: calc(125*.02px);
+
+}
+.main__title2{
+    margin: 0;
+    word-spacing: -5px;
+    letter-spacing: calc(140*.02px);
 }
 .main__word{
     background-image: linear-gradient(80deg, #FF56F6, #43A5E3);
@@ -96,7 +107,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .main__desc{
-    margin-top: -49px;
+    margin-top: -48px;
     margin-left: -4px;
     font-family: 'Rajdhani', sans-serif;
     font-style: normal;
@@ -110,7 +121,7 @@ body{
     display: flex;
     align-items: center;
     gap: 37.59px;
-    margin-top: 40px;
+    margin-top: 41px;
 
 }
 .main__btn1{
@@ -192,7 +203,7 @@ body{
 }
 
 .item__img1{
-    margin-left: -72px;
+    margin-left: -70px;
 }
 .item__img2{
     margin-left: -56px;
@@ -207,7 +218,7 @@ body{
     gap: 133px;
 }
 .item1{
-    margin-top: 4px;
+    margin-top: 5px;
 }
 .item2{
     margin-top: 3px;
@@ -401,7 +412,7 @@ body{
     color: #FFFFFF;
     opacity: 0.7;
     margin-bottom: 7px;
-    margin-top: 11px;
+    margin-top: 12px;
     margin-left: 10px;
 }
 .top__header{
@@ -412,10 +423,10 @@ body{
     font-weight: 700;
     font-size: 26.531px;
     color: #FFFFFF;
-    margin-top: 215px;
+    margin-top: 213px;
 }
 .top__header__btn{
-    margin-right: 26px;
+    margin-right: 19px;
 
 }
 .top__header__arrow{
@@ -438,7 +449,7 @@ body{
     background: url("../img/card_border.svg");
     width: 438.06px;
     height: 236.3px;
-    margin-top: -5px;
+    margin-top: -2px;
     backdrop-filter: blur(25.8003px);
 }
 .top__card__title{
@@ -455,7 +466,7 @@ body{
 }
 .top__card__user{
     display: flex;
-    margin-top: 14px;
+    margin-top: 12px;
     align-items: center;
     gap: 4.32px;
 }
@@ -503,7 +514,7 @@ body{
     font-weight: 700;
     font-size: 12.66px;
     color: #FFFFFF;
-    margin-top: -2px;
+    margin-top: -1px;
 
 
 }
@@ -514,7 +525,7 @@ body{
     font-size: 14.4px;
     color: #FFFFFF;
     opacity: 0.7;
-    margin-top: -1px;
+    margin-top: 1px;
     margin-left: 2px;
 }
 .top__card__left{
@@ -549,9 +560,13 @@ body{
     font-size: 23.6873px;
     line-height: 35px;
     color: #FFFFFF;
-    gap: 31px;
-    margin-top: -2px;
-    margin-left: 13px;
+    margin-top: -3px;
+    margin-left: 10px;
+
+}
+.top__card__num{
+    width: 30px;
+    margin-right: 25px;
 
 }
 .top__card__items{
@@ -589,6 +604,7 @@ body{
     height: 48.96px;
     line-height: 47.96px;
     text-align: center;
+    box-shadow: 0 4.81747px 116.824px rgba(255, 86, 246, 0.51);
     background: linear-gradient(92.23deg, #FF56F6 21.43%, #B936EE 50.63%, #3BACE2 100%, #406AFF 117.04%);
     font-family: 'Rajdhani', sans-serif;
     font-style: normal;
@@ -617,7 +633,7 @@ body{
     display: flex;
     flex-wrap:wrap;
     margin-left: -22px;
-    margin-top: 26px;
+    margin-top: 25px;
 }
 .collection__item{
     flex: 0 1 376.12px;
@@ -634,6 +650,11 @@ body{
     margin: 19px;
     color: rgba(255, 255, 255, 0.5);
 }
+.collection__item:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    background: url(../img/collection_border_hover.png) no-repeat;
+}
 .collection__img{
     margin-top: 161px;
     margin-right: 46px;
@@ -645,12 +666,23 @@ body{
     font-size: 19.8983px;
     color: #FFFFFF;
     text-align: right;
-    margin-top: 26px;
+    margin-top: 23px;
     margin-right: 139px;
+    transition: 0.5s ease;
+}
+.collection__btn:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+}
+.collector__header__btn{
+    margin-right: 27px;
+
 }
 .collection__arrow{
     margin-left: 9px;
     margin-right: -9px;
+    margin-top: 3px;
+
 
 }
 .collector__list{
@@ -666,8 +698,11 @@ body{
     font-weight: 700;
     font-size: 26.531px;
     color: #FFFFFF;
-    margin-top: 157px;
+    margin-top: 155px;
     margin-bottom: 49px;
+
+}
+.collector__arrow{
 
 }
 .collector__item{
@@ -738,7 +773,7 @@ body{
 .collector__btn{
     background: url("../img/btn_back_grad.png");
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 19.8983px;
     color: #FFFFFF;
     text-align: center;
@@ -799,14 +834,19 @@ body{
     margin-right: 13px;
 }
 .seller__num{
+    position: absolute;
     font-size: 19.0479px;
     opacity: 0.8;
     padding-left: 29.63px;
+}
+.margin-left-minus8{
+    margin-left: -8px;
 }
 .seller__avatar{
     width: 69.64px;
     margin-top: 1px;
     padding-left: 16.22px;
+    margin-left: 41px;
 
 }
 .seller__name{
@@ -816,14 +856,14 @@ body{
     padding-left: 12.4px;
     margin-top: -1px;
 }
-.seller__eth{
+.seller__eth {
     display: flex;
     align-items: center;
     font-weight: 500;
     font-size: 13.7568px;
     opacity: 0.8;
-    padding-left: 13px;
-    margin-top: 17px;
+    padding-left: 14px;
+    margin-top: 16px;
 }
 .seller__icon{
     padding-right: 3px;
@@ -845,7 +885,12 @@ body{
     margin-top: 16px;
 }
 .sellers__btn{
+    width: 235px;
     margin: 24px auto;
+    letter-spacing: calc(-3*.02px);
+    word-spacing: 1px;
+    padding-left: 7px;
+    font-size: 18px;
 }
 .minus-margin{
     margin-right: -15px;
@@ -856,16 +901,16 @@ body{
 }
 .question{
     position: relative;
-    background: url("../img/backgrounds/back_puple.png");
+    background: url("../img/backgrounds/purpule.png");
     height: 556px;
-    margin-top: 158px;
-    margin-left: -45px;
+    margin-top: 159px;
+    margin-left: -4px;
 
 }
 .question__block{
     position: absolute;
-    top: 217px;
-    right: 104px;
+    top: 216px;
+    right: 143px;
     font-family: 'Inter',sans-serif;
     font-style: normal;
     color: #FFFFFF;
@@ -880,7 +925,8 @@ body{
     margin-top: 62px;
     margin-bottom: 26px;
     margin-left: -55px;
-    letter-spacing: calc(25.51 *0.05px);
+    letter-spacing: calc(40.51 *0.05px);
+    word-spacing: -4px;
 
 }
 .question__desc{
@@ -890,7 +936,7 @@ body{
     width: 458.45px;
     margin-left: 75px;
     margin-bottom:49px;
-    letter-spacing: calc(2.51 *0.05px);
+    letter-spacing: calc(3 *0.05px);
 
 
 }
@@ -924,6 +970,7 @@ body{
     display: flex;
     margin-top: 293.63px;
     margin-left: -45px;
+    margin-bottom: 160.37px;
 
 }
 .subscribe__img{
@@ -949,7 +996,7 @@ body{
 }
 .subscribe__desc{
     font-weight: 400;
-    line-height: 36px;
+    line-height: 35px;
     width: 490px;
     margin-top: 30px;
     font-size: 19.9px;
@@ -985,41 +1032,54 @@ body{
     height: 1.11px;
     background: #FFFFFF;
     opacity: 0.2;
-    margin-top: 160.37px;
-    margin-bottom: 96px;
 }
 footer{
+    
     font-family: 'Inter',sans-serif;
 
 }
 .footer__content{
      display: flex;
- }
+    margin-top: 101px;
+    margin-left: 77px;
+    margin-bottom: 74px;
+
+}
 .footer__social{
     flex: 0 0 320px;
 }
 
 .footer__logo{
-    width: 117.18px;
+    width: 139.18px;
     height: 25.43px;
-    background: url("../img/ocean_logo.svg") no-repeat ;
+    background: url("../img/footer-logo.png") no-repeat ;
     background-size: cover;
+    margin-top: -3px;
+
 }
 .footer__desc{
     font-weight: 400;
     font-size: 15.4764px;
-    line-height: 27px;
+    line-height: 26px;
     color: #D9DBE1;
     width: 281.89px;
-    margin-top: 31px;
+    margin-top: 36px;
+    letter-spacing: calc(2*.05px);
+
 }
 .footer__icons{
     display: flex;
-    gap:17px
+    gap:17px;
+    margin-top: 27px;
+
 }
 
 .footer__links{
     flex: 1 1 auto;
+    margin-left: 53px;
+    margin-top: -20px;
+    letter-spacing: calc(3*.05px);
+
 }
 .links_headers{
     display: flex;
@@ -1038,20 +1098,47 @@ footer{
 .links__items{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2px;
+
 
 }
 .links__item{
-    flex: 0 1 20%;
+    position: relative;
+    flex: 0 1 176.87px;
     font-weight: 400;
     font-size: 15.4764px;
     line-height: 27px;
     color: #D9DBE1;
+    margin-bottom: 13px;
+    margin-right: 33px;
+    letter-spacing: calc(2 * 0.05px);
 }
 .footer__terms {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-weight: 400;
     font-size: 15.4764px;
     line-height: 27px;
     color: #D9DBE1;
+    margin-top: 27px;
+    margin-bottom: 61px;
+    padding: 0 75px;
+    margin-right: 128px;
+    letter-spacing: calc(1*.05px);
+}
+.footer__new{
+    position: absolute;
+    background: url("../img/new.svg");
+    width: 45px;
+    height: 12px;
+    right: 57px;
+    top: 9px;
+}
+.footer__right{
+    display: flex;
+    gap: 9.5px;
+    margin-right: -19px;
+    margin-top: -3px;
+
 }
