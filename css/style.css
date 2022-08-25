@@ -469,7 +469,9 @@ body{
     display: flex;
     gap: 34.5px;
     margin-top: 47px;
-
+}
+.top__slider{
+    display: none;
 }
 .top__header__title{
 
@@ -647,6 +649,10 @@ body{
     margin-left: 10px;
 
 }
+
+.top__btn{
+    display: none;
+}
 .collection{
     display: flex;
 }
@@ -714,6 +720,9 @@ body{
     margin-top: 3px;
 
 
+}
+.collector-slider{
+    display: none;
 }
 .collector__list{
     display: flex;
