@@ -95,11 +95,126 @@
         display: block;
     }
     .main__title{
-        font-size: 45px;
-        margin-top: 59px;
-        margin-left: 10px;
+        font-size: 41.5px;
+        margin-top: 12.5px;
+        margin-left: 9px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: calc(-12*.02px);
+        line-height: 57px;
+        word-spacing: 3px;
+        width: 310px;
     }
-    .main__title1{
-        letter-spacing: calc(125*.02px);
+    .main__desc{
+        margin-top: -6px;
+        margin-left: 7px;
+        width: 300px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .main__buttons{
+        gap: 19.69px;
+    }
+    .main__btn1{
+        font-size: 12px;
+        background: url(../img/mobile/button-active.png) no-repeat;
+        width: 158.83px;
+        height: 38.12px;
+        line-height: 38.12px;
+        margin-top: -9px;
+        margin-left: 5px;
+        padding-left: 30px;
+    }
+    .main__btn1:after{
+        background: url(../img/mobile/btn-arrow.svg) no-repeat;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    .main__btn2{
+        font-size: 12px;
+        margin-left: -54px;
+        margin-top: -8px;
+    }
+    .main__list{
+        font-size: 18px;
+        margin-top: 42px;
+        margin-left: 7px;
+        gap: 51px;
+    }
+    .main__list__padding{
+        padding-right: 8px;
+    }
+    .main__list__margin{
+        margin-left: 8px;
+    }
+    .main__item{
+        border: 0;
+    }
+    .item__img1{
+        width: 44px;
+        margin-top: 27px;
+        margin-left: -26px;
+    }
+    .item__img2{
+        width: 47px;
+        margin-top: 27px;
+        margin-left: -11px;
+    }
+    .item__img3{
+        width: 37px;
+        margin-top: 27px;
+        margin-left: -34px;
+    }
+    .main__side{
+        order: 3;
+        margin: 55px 0 0 -3px;
+    }
+    .main__logo{
+        order: 2;
+        gap: 0;
+        flex-wrap: wrap;
+        margin-top: 12px;
+    }
+    .logo__item img{
+        width: 144px;
+        margin-top: 5px;
+        margin-left: 7px;
+    }
+    .item1 img{
+        width: 92px;
+        margin-top: 4px;
+        margin-left: 55px;
+
+    }
+    .item2 img{
+        width: 190px;
+        margin-left: -4px;
+        margin-top: 22px;
+
+    }
+    .item3 img{
+        width: 102px;
+        margin-top: 11px;
+        margin-left: 27px;
+    }
+    .main__img{
+        background: url("../img/mobile/abstract-mobile.png");
+        height: 387px;
+        width: 333px;
+    }
+    .main__card{
+        right: 4px;
+        top: -3px;
+        transform: scale(0.97);
+        bottom: 26px;
+        background: 0;
+    }
+    .main__card__back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: -336px;
+        left: 5px;
+        background: url("../img/mobile/frot-blur.png") no-repeat;
+
     }
 }
