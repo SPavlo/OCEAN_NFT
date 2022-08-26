@@ -1,7 +1,12 @@
 @media  (max-width: 376px){
+    body{
+        background: url("../img/mobile/back.png");
+        overflow-x:hidden;
+    }
     .body.lock{
         overflow: hidden;
     }
+
     .header{
         margin-top: 23px;
     }
