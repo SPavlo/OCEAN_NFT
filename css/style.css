@@ -841,6 +841,18 @@ body{
     margin-bottom: 25.5px;
 
 }
+.sellers__word{
+    color: #FF56F6;
+}
+.sellers__word:after{
+    content: ' ';
+    position: absolute;
+    height: 13px;
+    width: 12px;
+    margin-top: 15px;
+    right: 38.5%;
+    background: url("../img/mobile/sellers-checked.svg") no-repeat;
+}
 .sellers__desc{
     font-style: normal;
     font-weight: 400;
@@ -864,6 +876,7 @@ body{
     display: flex;
     position: relative;
     background: url("../img/sellers_border.png") no-repeat;
+    background-size: 96% 100%;
     font-style: normal;
     font-weight: 500;
     align-items: center;
@@ -930,6 +943,9 @@ body{
     word-spacing: 1px;
     padding-left: 7px;
     font-size: 18px;
+}
+.seller__btn{
+    display: none;
 }
 .minus-margin{
     margin-right: -15px;

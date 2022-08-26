@@ -375,6 +375,8 @@
     }
     .collector__item{
         transform: scale(0.69);
+        width: 437px;
+        margin-left: -18px;
     }
     .collector__teg{
         margin-top: 7px;
@@ -400,5 +402,135 @@
     }
     .collector-slider{
         display: block;
+    }
+    .collectors__btn{
+        margin-top: -45px;
+    }
+    .sellers__title{
+        font-size: 20px;
+        margin-top: -55px;
+        letter-spacing: calc(-10 * .05px);
+        word-spacing: 1px;
+        margin-left: -13px;
+    }
+    .sellers__desc{
+        font-size: 14px;
+        width: 93%;
+        margin-top: -8px;
+        margin-left: 5px;
+        line-height: 20px;
+    }
+    .sellers__word:after{
+        margin-top: 10px;
+        right: 15.5%;
+    }
+    .sellers__list div:nth-child(5),
+    .sellers__list div:nth-child(6),
+    .sellers__list div:nth-child(7),
+    .sellers__list div:nth-child(8),
+    .sellers__list div:nth-child(9),
+    .sellers__list div:nth-child(10),
+    .sellers__list div:nth-child(11),
+    .sellers__list div:nth-child(12){
+        display: none
+    }
+    .sellers__list{
+        margin-left: -51px;
+        margin-top: -46px;
+    }
+    .seller__item{
+        flex: 0;
+        transform: scale(0.75);
+        width: 343px;
+        padding-right: 253px;
+        margin-bottom: -9px;
+    }
+    .seller__name{
+        position: absolute;
+        white-space: nowrap;
+        margin-top: -5px;
+    }
+    .seller__eth{
+        margin-top: 32px;
+        margin-left: -4px;
+    }
+    .seller__percent{
+        bottom: 38px;
+        right: 39px;
+
+    }
+    .sellers__btn{
+        display: none;
+    }
+    .seller__btn{
+        display: flex;
+        margin-top: 23px;
+    }
+    .question{
+        margin-top: 107px;
+        margin-left: 0;
+        background: url("../img/mobile/purpule.png") no-repeat;
+    }
+    .question__block{
+        top: 23px;
+        left: -106px;
+        transform: scale(0.579);
+    }
+    .question__desc{
+        margin-left: 74px;
+        margin-bottom: 48px;
+    }
+    .question__btns{
+        margin-left: 75px;
+        margin-bottom: 58px;
+    }
+    .subscribe{
+        flex-direction: column-reverse;
+        margin-top: -72px;
+
+    }
+    .subscribe__img{
+        margin-top: 98px;
+        margin-left: 46px;
+        background: url(../img/mobile/yellow.png) no-repeat;
+        height: 380px;
+    }
+    .subscribe__title{
+        font-size: 26px;
+        margin-left: -29px;
+    }
+    .subscribe__desc{
+        font-size: 13px;
+        margin-left: -30px;
+        margin-top: 18px;
+        width: 80%;
+        line-height: 25px;
+        letter-spacing: calc(3.51 *0.05px);
+    }
+    .subscribe__form{
+        transform: scale(0.65);
+        margin-left: -139px;
+        margin-top: 20px;
+    }
+    .subscribe__btn{
+        margin-left: 8px;
+
+    }
+    .subscribe__line{
+        width: 86vw;
+        height: 1.11px;
+        background: #FFFFFF;
+        opacity: 0.2;
+        margin: -52px auto 2px auto;
+    }
+    .footer__content{
+        display: block;
+        margin-top: 29px;
+        margin-left: 25px;
+    }
+}
+@media  (max-width: 1241px){
+    .minus-margin{
+        margin-right: 13px;
     }
 }
