@@ -1093,6 +1093,9 @@ footer{
     font-family: 'Inter',sans-serif;
 
 }
+.footer-mobile{
+    display: none;
+}
 .footer__content{
      display: flex;
     margin-top: 101px;
