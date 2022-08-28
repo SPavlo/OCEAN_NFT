@@ -488,7 +488,8 @@
     }
     .question__desc{
         margin-left: 74px;
-        margin-bottom: 48px;
+        margin-top: -2px;
+        margin-bottom: 50px;
     }
     .question__btns{
         margin-left: 75px;
@@ -523,7 +524,10 @@
         margin-top: 21px;
     }
     .subscribe__btn{
-        margin-left: 8px;
+        margin-left: 7px;
+        width: 148px;
+        height: 54px;
+        line-height: 55px;
 
     }
     .subscribe__line{
@@ -535,7 +539,7 @@
     }
     .footer__content{
         display: block;
-        margin-top: 29px;
+        margin-top: 30px;
         margin-left: 25px;
     }
     .footer__desc{

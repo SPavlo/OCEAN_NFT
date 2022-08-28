@@ -481,7 +481,7 @@ body{
     background: url("../img/card_border.svg");
     width: 438.06px;
     height: 236.3px;
-    margin-top: -2px;
+    margin-top: -2.5px;
     backdrop-filter: blur(25.8003px);
 }
 .top__card__title{
@@ -943,6 +943,8 @@ body{
     word-spacing: 1px;
     padding-left: 7px;
     font-size: 18px;
+    line-height: 55px;
+
 }
 .seller__btn{
     display: none;
@@ -977,7 +979,7 @@ body{
     font-weight: 800;
     font-size: 43.5093px;
     text-align: center;
-    margin-top: 62px;
+    margin-top: 63px;
     margin-bottom: 26px;
     margin-left: -55px;
     letter-spacing: calc(40.51 *0.05px);
@@ -1053,7 +1055,7 @@ body{
     font-weight: 400;
     line-height: 35px;
     width: 490px;
-    margin-top: 30px;
+    margin-top: 31px;
     font-size: 19.9px;
     letter-spacing: calc(2.51 *0.05px);
 }
@@ -1156,7 +1158,7 @@ footer{
 .links__items{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 2px;
+    margin-top: 3px;
 
 
 }
