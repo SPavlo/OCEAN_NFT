@@ -37,12 +37,26 @@
         padding: 0;
 
     }
+    .header__link{
+        color: #FFFFFF;
+    }
     .header__list{
         margin-top: 62px;
+        text-align: center;
+        margin-right: 71px;
+    }
+    .header__item{
+        margin-bottom: 13px;
+
     }
     .user{
         left: 10%;
         top: 14%;
+        margin-left: 137px;
+    }
+    .user__profile{
+        margin-left: 2px;
+        margin-top: 10px;
     }
     .header__burger{
         display: block;
@@ -110,7 +124,7 @@
         width: 310px;
     }
     .main__desc{
-        margin-top: -6px;
+        margin-top: -40px;
         margin-left: 7px;
         width: 300px;
         font-size: 14px;
@@ -118,6 +132,8 @@
     }
     .main__buttons{
         gap: 19.69px;
+        margin-top: 40px;
+
     }
     .main__btn1{
         font-size: 12px;
@@ -214,8 +230,12 @@
         background: 0;
     }
     .card__items{
-        margin-top: -7px;
+        margin-top: -4px;
 
+
+    }
+    .card__btn{
+        top: 1.5px;
     }
     .card__auction{
         margin-left: 9px;
@@ -247,6 +267,10 @@
         margin-top: -60px;
         margin-left: -66px;
     }
+    .top__card__items{
+        margin-top: -1px;
+        margin-left: 10px;
+    }
     .top__card{
         transform: scale(0.695);
     }
@@ -274,7 +298,7 @@
     }
     .top__card__eth{
         font-size: 11px;
-        margin-top: -4px;
+        margin-top: 0px;
     }
     .top__card__dollar{
         font-size: 12px;
@@ -305,11 +329,15 @@
         margin-right: 29px;
 
     }
+    .top__card__btnborder{
+        width: 159.39px;
+
+    }
     .top__card__btn{
         font-size: 20px;
-        width: 151px;
+        width: 153px;
         left: 2px;
-        padding-left: 4px;
+        padding-left: 2px;
         line-height: 44.96px;
     }
     .top__card__arrow{
@@ -317,7 +345,7 @@
         margin-left: 22px;
     }
     .top__btn{
-        margin-top: -58px;
+        margin-top: -57px;
         margin-left: 95px;
         display: flex;
         background: url(../img/mobile/btn-off.png) no-repeat;
@@ -384,6 +412,7 @@
         transform: scale(0.69);
         width: 437px;
         box-sizing: content-box;
+        margin-top: 1px;
         margin-left: -20px;
         background: url(../img/mobile/collector-back.png) no-repeat;
         background-size: 100% 101%;
@@ -486,14 +515,21 @@
         left: -106px;
         transform: scale(0.579);
     }
+    .question__title{
+        margin-top: 61px;
+
+    }
     .question__desc{
         margin-left: 74px;
         margin-top: -2px;
-        margin-bottom: 50px;
+        margin-bottom: 51px;
     }
     .question__btns{
         margin-left: 75px;
         margin-bottom: 58px;
+    }
+    .question__watch{
+        margin-left: 40px;
     }
     .subscribe{
         flex-direction: column-reverse;
@@ -523,9 +559,13 @@
         margin-left: -139px;
         margin-top: 21px;
     }
+    .subscribe__input{
+        width: 244.15px;
+
+    }
     .subscribe__btn{
-        margin-left: 7px;
-        width: 148px;
+        margin-left: 5px;
+        width: 149px;
         height: 54px;
         line-height: 55px;
 
@@ -544,7 +584,7 @@
     }
     .footer__desc{
         width: 321.89px;
-        margin-top: 36px;
+        margin-top: 35px;
         letter-spacing: calc(5*.05px);
         word-spacing: -1px;
     }
