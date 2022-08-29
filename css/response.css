@@ -1,0 +1,134 @@
+@media  (max-width: 1598px) and (min-width: 377px){
+    .main__content{
+        width: 46%;
+    }
+    .main__text{
+        width: 90%;
+    }
+    .main__title{
+        width: 90%;
+    }
+    .main__desc{
+        width: 100%;
+    }
+    .main__logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .top__card{
+        flex: 0 1 30%;
+    }
+    .top__card__img{
+        width: 100%;
+    }
+}
+@media  (max-width: 1138px) and (min-width: 377px){
+    .main{
+        justify-content: space-around;
+    }
+    .main__content{
+        width: 80%;
+    }
+    .top__card__init{
+        display: none;
+    }
+    .top__slider{
+        display: block;
+    }
+
+}
+@media  (max-width: 1056px) and (min-width: 377px){
+    .body.lock{
+        overflow: hidden;
+    }
+    .header{
+        margin-top: 23px;
+    }
+    .header__icon{
+        background: url("../img/mobile/ocean-logo.png") no-repeat ;
+        margin-top: 3px;
+        margin-left: -3px;
+    }
+    .header__nav{
+
+        display: block;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #402049;
+        padding-left: 38px;
+        transition: all 0.3s ease 0s;
+
+    }
+    .header__nav.active{
+        top: 0;
+    }
+    .header__list, .user{
+        display: block;
+        left: 0;
+        padding: 0;
+
+    }
+    .header__list{
+        margin-top: 62px;
+    }
+    .user{
+        left: 10%;
+        top: 14%;
+    }
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 22px;
+        height: 20px;
+        left: 68%;
+        bottom: 2px;
+    }
+
+    .header__burger span{
+        position: absolute;
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        left: 8px;
+        width: 59%;
+        height: 2.6px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+
+
+    }
+    .header__burger:before,
+    .header__burger:after{
+        content: ' ';
+        background-color: #FFFFFF;
+        border-radius: 24px;
+        position: absolute;
+        width: 100%;
+        height: 2.6px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+
+    }
+    .header__burger:before{
+        top: 0;
+    }
+    .header__burger:after{
+        bottom: 0;
+    }
+    .header__burger.active:before{
+        transform: rotate(45deg);
+        top: 8px;
+
+    }
+    .header__burger.active:after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+
+    }
+    .header__burger.active span{
+        transform: scale(0);
+    }
+}
