@@ -1,13 +1,25 @@
-@media  (max-width: 376px){
+@media  (max-width: 375px){
+    .header{
+        justify-content: normal;
+        margin-top: 23px;
+    }
     body{
         background: url("../img/mobile/back.png");
+        overflow-x:hidden;
+    }
+
+}
+@media  (max-width: 525px){
+
+    body{
         overflow-x:hidden;
     }
     .body.lock{
         overflow: hidden;
     }
 
-    .header{
+    .headerheader{
+        justify-content: space-between;
         margin-top: 23px;
     }
     .header__icon{
@@ -63,7 +75,6 @@
         position: relative;
         width: 22px;
         height: 20px;
-        left: 163px;
         bottom: 2px;
     }
 
@@ -509,6 +520,8 @@
         margin-top: 107px;
         margin-left: 0;
         background: url("../img/mobile/purpule.png") no-repeat;
+        background-size: 100%;
+
     }
     .question__block{
         top: 23px;
@@ -608,7 +621,9 @@
         margin-top: 5px;
     }
     .footer-mobile__link{
-        margin-top: 4px;
+        margin-top: 7px;
+        margin-left: 5px;
+        font-size: 14px;
     }
     .footer-mobile__item{
         position: relative;
