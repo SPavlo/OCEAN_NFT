@@ -1,4 +1,4 @@
-@media  (max-width: 375px){
+@media  (max-width: 376px){
     .header{
         justify-content: normal;
         margin-top: 23px;
@@ -6,6 +6,10 @@
     body{
         background: url("../img/mobile/back.png");
         overflow-x:hidden;
+    }
+    .collector__item {
+        margin-left: -20px;
+
     }
 
 }
@@ -18,10 +22,11 @@
         overflow: hidden;
     }
 
-    .headerheader{
+    .header{
         justify-content: space-between;
         margin-top: 23px;
     }
+
     .header__icon{
         background: url("../img/mobile/ocean-logo.png") no-repeat ;
         margin-top: 3px;
@@ -43,7 +48,7 @@
     .header__nav.active{
         top: 0;
     }
-    .header__list, .user{
+    .header__list{
         display: block;
         left: 0;
         padding: 0;
@@ -51,6 +56,9 @@
     }
     .header__link{
         color: #FFFFFF;
+    }
+    .link-mob{
+        display: block;
     }
     .header__list{
         margin-top: 62px;
@@ -62,9 +70,7 @@
 
     }
     .user{
-        left: 10%;
-        top: 14%;
-        margin-left: 137px;
+        display: none;
     }
     .user__profile{
         margin-left: 2px;
@@ -424,9 +430,10 @@
         width: 437px;
         box-sizing: content-box;
         margin-top: 1px;
-        margin-left: -20px;
         background: url(../img/mobile/collector-back.png) no-repeat;
-        background-size: 100% 101%;
+        padding-bottom: 13px;
+        background-size: 100% 100%;
+        border: 0;
     }
     .collector__teg{
         margin-top: 7px;
