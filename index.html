@@ -5,10 +5,12 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/response.css">
     <link rel="stylesheet" href="css/mobile.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -112,11 +114,15 @@
     </section>
     <section class="top">
         <div class="top__header">
-            <div class="top__header__title">Top NFT’s now</div>
-            <div>
-                <span class="top__header__btn">View all</span>
-                <img class="top__header__arrow "src="img/button_arrow.svg/" alt="button_arrow">
-            </div>
+
+                <div class="top__header__title">Top NFT’s now</div>
+            <a href="#">
+                <div>
+                    <span class="top__header__btn">View all</span>
+                    <img class="top__header__arrow "src="img/button_arrow.svg/" alt="button_arrow">
+                </div>
+            </a>
+
 
         </div>
         <div class="top__card__init top__cards">
@@ -247,9 +253,9 @@
                 </div>
             </div>
         </div>
-        <div class="top__slider swiper-container">
+     <!--   <div class="top__slider swiper-container">
             <div class="top__cards swiper-wrapper ">
-               <div class="swiper-slide">
+                <div class="top__slide swiper-slide">
                    <div class="top__card">
                        <div class="top__card__img"><img src="img/nft/apollo.png" alt="apollo"></div>
                        <div class="top__card__content">
@@ -293,7 +299,7 @@
                        </div>
                    </div>
                </div>
-                <div class="swiper-slide">
+                <div class="top__slide swiper-slide">
                     <div class="top__card ">
                     <div class="top__card__img"><img src="img/nft/bull.png" alt="bull"></div>
                     <div class="top__card__content">
@@ -337,7 +343,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="top__slide swiper-slide">
                     <div class="top__card ">
                         <div class="top__card__img"><img src="img/nft/satisfying.png" alt="satisfying"></div>
                         <div class="top__card__content">
@@ -383,10 +389,140 @@
 
                 </div>
             </div>
+        </div>-->
+        <div class="swiper SwiperFirst">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="nfttob__mini-block">
+                        <img src="img/nft/apollo.png" alt="">
+                        <div class="topnft__info-block">
+                            <div>
+                                <h5>Apollo Eth #1289 NFT</h5>
+                                <div class="topnft__user-info">
+                                    <img class="topnft__user-img" src="img/avatars/avatar01.svg" alt="">
+                                    <p>@jhonartist</p>
+                                    <img class="topnft__done-img" src="img/icons/checked.svg" alt="">
+                                </div>
+                                <h6>Reserve price</h6>
+                                <div class="topnft__eth-info">
+                                    <img src="img/icons/eth_gray.svg" alt="">
+                                    <span>ETH 9.31</span>
+                                    <p>($29,8846)</p>
+                                </div>
+                            </div>
+                            <div class="topnft__info-right-block">
+                                <p>Auction Ends in</p>
+                                <div style="display: flex;">
+                                    <div class="topnft__info-mini-block">
+                                        <span>18</span>
+                                        <p>Hours</p>
+                                    </div>
+                                    <div class="topnft__info-mini-block-second">
+                                        <span>25</span>
+                                        <p>Mins</p>
+                                    </div>
+                                    <div class="topnft__info-mini-block-third">
+                                        <span>44</span>
+                                        <p>Secs</p>
+                                    </div>
+                                </div>
+                                <a class="topnft__info-button" href="#">Place Bid<img
+                                        src="img/arrow_top.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="nfttob__mini-block">
+                        <img src="img/nft/bull.png" alt="">
+                        <div class="topnft__info-block">
+                            <div>
+                                <h5>Sassy Bull #1169 Art</h5>
+                                <div class="topnft__user-info">
+                                    <img class="topnft__user-img" src="img/avatars/avatar3.svg"
+                                         alt="">
+                                    <p>@jhonartist</p>
+                                    <img class="topnft__done-img" src="img/icons/checked.svg" alt="">
+                                </div>
+                                <h6>Reserve price</h6>
+                                <div class="topnft__eth-info">
+                                    <img src="img/icons/eth_gray.svg" alt="">
+                                    <span>ETH 9.31</span>
+                                    <p>($29,8846)</p>
+                                </div>
+                            </div>
+                            <div class="topnft__info-right-block topnft__info-right-block-third">
+                                <p>Auction Ends in</p>
+                                <div style="display: flex;">
+                                    <div class="topnft__info-mini-block">
+                                        <span>23</span>
+                                        <p>Hours</p>
+                                    </div>
+                                    <div class="topnft__info-mini-block-second">
+                                        <span>32</span>
+                                        <p>Mins</p>
+                                    </div>
+                                    <div class="topnft__info-mini-block-third">
+                                        <span>56</span>
+                                        <p>Secs</p>
+                                    </div>
+                                </div>
+                                <a class="topnft__info-button" href="#">Place Bid<img
+                                        src="img/arrow_top.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="nfttob__mini-block">
+                        <img src="img/nft/satisfying.png" alt="">
+                        <div class="topnft__info-block">
+                            <div>
+                                <h5>Satisfying 3D Art</h5>
+                                <div class="topnft__user-info">
+                                    <img class="topnft__user-img" src="img/avatars/avatar2.svg"
+                                         alt="">
+                                    <p>@jhonartist</p>
+                                    <img class="topnft__done-img" src="img/icons/checked.svg" alt="">
+                                </div>
+                                <h6>Reserve price</h6>
+                                <div class="topnft__eth-info">
+                                    <img src="img/icons/eth_gray.svg" alt="">
+                                    <span>ETH 9.31</span>
+                                    <p>($29,8846)</p>
+                                </div>
+                            </div>
+                            <div class="topnft__info-right-block topnft__info-right-block-third">
+                                <p>Auction Ends in</p>
+                                <div style="display: flex;">
+                                    <div class="topnft__info-mini-block">
+                                        <span>23</span>
+                                        <p>Hours</p>
+                                    </div>
+                                    <div class="topnft__info-mini-block-second">
+                                        <span>32</span>
+                                        <p>Mins</p>
+                                    </div>
+                                    <div class="topnft__info-mini-block-third">
+                                        <span>56</span>
+                                        <p>Secs</p>
+                                    </div>
+                                </div>
+                                <a class="topnft__info-button" href="#">Place Bid<img
+                                        src="img/arrow_top.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="main__btn1 top__btn ">
-            Explore
-        </div>
+
+        <a href="#">
+            <div class="main__btn1 top__btn ">
+                Explore
+            </div>
+        </a>
     </section>
     <section class="collection">
         <div class="collection__content">
@@ -416,8 +552,11 @@
         <div class="collectors__header">
             <div class="top__header__title">Explore Collections</div>
             <div>
-                <span class="top__header__btn">View all</span>
-                <img class="top__header__arrow "src="img/button_arrow.svg/" alt="button_arrow">
+                <a href="#">
+                    <span class="top__header__btn">View all</span>
+                    <img class="top__header__arrow "src="img/button_arrow.svg/" alt="button_arrow">
+                </a>
+
             </div>
         </div>
         <div class="collector__list collector__init">
@@ -488,7 +627,7 @@
 
             </div>
         </div>
-        <div class="collector-slider swiper-container">
+       <!-- <div class="collector-slider swiper-container">
             <div class="collector__list swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="collector__item ">
@@ -566,15 +705,96 @@
 
                 </div>
             </div>
+        </div>-->
+        <div class="swiper SwiperSecond">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="exp__col-2-first-block">
+                        <img src="img/backgrounds/colector_back.png" alt="">
+                        <h4>Jhones Nickey</h4>
+                        <div class="exp__col-2-block-url">
+                            <p>@jhonartist</p>
+                        </div>
+                        <div class="exp__col-2-block-stats">
+                            <div class="exp__col-2-block-stats-text">
+                                <span>125</span>
+                                <p>Folowers</p>
+                            </div>
+                            <div class="exp__col-2-block-stats-text">
+                                <span>256</span>
+                                <p>Following</p>
+                            </div>
+                            <div class="exp__col-2-block-stats-text">
+                                <span>129</span>
+                                <p>Artworks</p>
+                            </div>
+                        </div>
+                        <a class="exp__col-2-block-button" href="#">Follow</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="exp__col-2-second-block">
+                        <img src="img/backgrounds/colector_back.png" alt="">
+                        <h4>Cody Fisher</h4>
+                        <div class="exp__col-2-block-url">
+                            <p>@codyfishe</p>
+                        </div>
+                        <div class="exp__col-2-block-stats">
+                            <div class="exp__col-2-block-stats-text">
+                                <span>356</span>
+                                <p>Folowers</p>
+                            </div>
+                            <div class="exp__col-2-block-stats-text">
+                                <span>456</span>
+                                <p>Following</p>
+                            </div>
+                            <div class="exp__col-2-block-stats-text">
+                                <span style="margin-left: 6px;">89</span>
+                                <p>Artworks</p>
+                            </div>
+                        </div>
+                        <a class="exp__col-2-block-button" href="#">Follow</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="exp__col-2-third-block">
+                        <img src="img/backgrounds/colector_back.png" alt="">
+                        <h4>Jerome Bell</h4>
+                        <div class="exp__col-2-block-url">
+                            <p>@jeromebt</p>
+                        </div>
+                        <div class="exp__col-2-block-stats">
+                            <div class="exp__col-2-block-stats-text">
+                                <span>546</span>
+                                <p>Folowers</p>
+                            </div>
+                            <div class="exp__col-2-block-stats-text">
+                                <span style="margin-left: 2px;">789</span>
+                                <p>Following</p>
+                            </div>
+                            <div class="exp__col-2-block-stats-text">
+                                <span style="margin-left: 6px;">54</span>
+                                <p>Artworks</p>
+                            </div>
+                        </div>
+                        <a class="exp__col-2-block-button" href="#">Follow</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="main__btn1 top__btn collectors__btn">
-            Explore
-        </div>
+        <a href="#">
+            <div class="main__btn1 top__btn collectors__btn">
+                Explore
+            </div>
+        </a>
+
     </section>
-    <section class="sellers">
+</div>
+    <section class="sellers top__sellers-section">
+        <div class="container">
         <div class="sellers__title">Top Sellers this <span class="sellers__word">Month</span></div>
         <div class="sellers__desc">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim minim mollit.</div>
-        <div class="sellers__list">
+   <!--     <div class="sellers__list">
             <div class="seller__item">
                 <span class="seller__num">1</span>
                 <img class="seller__avatar" src="img/avatars/Ellipse%20277.svg" alt="seller_avatar">
@@ -719,13 +939,293 @@
                 </div>
                 <div class="seller__percent red-back">+468.48%</div>
             </div>
+        </div>-->
+        <div class="blocks__wrapper">
+            <div class="small__block">
+                <div class="number">1</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277.svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Eleanor Pena</h4>
+                    <p>74875</p>
+                </div>
+                <div class="user__profit">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">2</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(1).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Savannah Nguyen</h4>
+                    <p>18599</p>
+                </div>
+                <div class="user__profit red">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">3</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(2).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Arlene McCoy</h4>
+                    <p>45904</p>
+                </div>
+                <div class="user__profit">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">4</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(3).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Esther Howard</h4>
+                    <p>16627</p>
+                </div>
+                <div class="user__profit red">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">5</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(4).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Robert Fox</h4>
+                    <p>9631</p>
+                </div>
+                <div class="user__profit">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">6</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(5).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Darlene Robertson</h4>
+                    <p>70443</p>
+                </div>
+                <div class="user__profit">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">7</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(6).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Jacob Jones</h4>
+                    <p>13671</p>
+                </div>
+                <div class="user__profit">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">8</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(7).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Jerome Bell</h4>
+                    <p>39235</p>
+                </div>
+                <div class="user__profit red">+468.48%</div>
+            </div>
+            <div class="small__block">
+                <div class="number">9</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(8).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Wade Warren</h4>
+                    <p>43359</p>
+                </div>
+                <div class="user__profit red">+468.48%</div>
+            </div>
+            <div class="small__block last">
+                <div class="number">10</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(9).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Jane Cooper</h4>
+                    <p>95554</p>
+                </div>
+                <div class="user__profit red">+468.48%</div>
+            </div>
+            <div class="small__block last">
+                <div class="number">11</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(10).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Kristin Watson</h4>
+                    <p>20796</p>
+                </div>
+                <div class="user__profit">+468.48%</div>
+            </div>
+            <div class="small__block last">
+                <div class="number">12</div>
+                <div class="user__photo">
+                    <img src="img/avatars/Ellipse%20277%20(11).svg" alt="">
+                </div>
+                <div class="user__info">
+                    <h4>Kathryn Murphy</h4>
+                    <p>4339</p>
+                </div>
+                <div class="user__profit red">+468.48%</div>
+            </div>
         </div>
-        <div class="collector__btn sellers__btn ">Explore all</div>
-        <div class="main__btn1 top__btn seller__btn">
-            Explore
         </div>
+        <div class="swiper SwiperThird">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="small__block">
+                        <div class="number">1</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277.svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Eleanor Pena</h4>
+                            <p>74875</p>
+                        </div>
+                        <div class="user__profit">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div class="number">2</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(1).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Savannah Nguyen</h4>
+                            <p>18599</p>
+                        </div>
+                        <div class="user__profit red">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div class="number">3</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(2).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Arlene McCoy</h4>
+                            <p>45904</p>
+                        </div>
+                        <div class="user__profit">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div style="margin-left: -6px;margin-bottom:3px" class="number">4</div>
+                        <div class="user__photo">
+                            <img style="margin-left: 6px;" src="img/avatars/Ellipse%20277%20(3).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4 style="margin-left: 6px;">Esther Howard</h4>
+                            <p style="margin-left: 13px;">16627</p>
+                        </div>
+                        <div class="user__profit red">+468.48%</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="small__block">
+                        <div class="number">5</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(4).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Robert Fox</h4>
+                            <p>74875</p>
+                        </div>
+                        <div class="user__profit">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div class="number">6</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(5).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Darlene Robertson</h4>
+                            <p>18599</p>
+                        </div>
+                        <div class="user__profit red">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div class="number">7</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(6).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Jacob Jones</h4>
+                            <p>45904</p>
+                        </div>
+                        <div class="user__profit">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div style="margin-left: -6px;margin-bottom:3px" class="number">8</div>
+                        <div class="user__photo">
+                            <img style="margin-left: 6px;" src="img/avatars/Ellipse%20277%20(7).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4 style="margin-left: 6px;">Jerome Bell</h4>
+                            <p style="margin-left: 13px;">16627</p>
+                        </div>
+                        <div class="user__profit red">+468.48%</div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="small__block">
+                        <div class="number">9</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(8).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Wade Warren</h4>
+                            <p>74875</p>
+                        </div>
+                        <div class="user__profit">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div class="number">10</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(9).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Jane Cooper</h4>
+                            <p>18599</p>
+                        </div>
+                        <div class="user__profit red">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div class="number">11</div>
+                        <div class="user__photo">
+                            <img src="img/avatars/Ellipse%20277%20(10).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4>Kristin Watson</h4>
+                            <p>45904</p>
+                        </div>
+                        <div class="user__profit">+468.48%</div>
+                    </div>
+                    <div class="small__block">
+                        <div style="margin-left: -6px;margin-bottom:3px" class="number">12</div>
+                        <div class="user__photo">
+                            <img style="margin-left: 6px;" src="img/avatars/Ellipse%20277%20(11).svg" alt="">
+                        </div>
+                        <div class="user__info">
+                            <h4 style="margin-left: 6px;">Kathryn Murphy</h4>
+                            <p style="margin-left: 13px;">16627</p>
+                        </div>
+                        <div class="user__profit red">+468.48%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="collector__btn sellers__btn "><a href="#">Explore all</a></div>
+        <a href="#">
+            <div class="main__btn1 top__btn seller__btn">
+                Explore
+            </div>
+        </a>
+
     </section>
-</div>
+
     <section class="question">
         <div class="question__block">
             <div class="question__title">
@@ -751,7 +1251,9 @@
             <p class="subscribe__desc">Specially developed to help restore a more youthful appearance with improved radiance and bounce.</p>
             <div class="subscribe__form">
                 <input type="text" placeholder="Your work email address" class="subscribe__input">
-                <div class="subscribe__btn">Subscribe</div>
+                <a href="#">
+                    <div class="subscribe__btn">Subscribe</div>
+                </a>
             </div>
         </div>
 
@@ -868,11 +1370,11 @@
             <div class="footer__terms">
                 <div>© 2020 Landify UI Kit. All rights reserved</div>
                 <div class="footer__right">
-                   <div>Terms & Conditions </div>
+                   <div><a href="#">Terms & Conditions </a></div>
                    <div class="footer-dash" >|</div>
-                   <div>Privacy Policy</div>
+                   <div><a href="#">Privacy Policy</a></div>
                    <div class="footer-dash">|</div>
-                   <div class="footer-dash">Sitemap</div>
+                   <div class="footer-dash"><a href="#">Sitemap</a></div>
                 </div>
             </div>
     </footer>
@@ -880,6 +1382,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="burger.js"></script>
 <script src="top-slider.js"></script>
+
 <script src="collector-slider.js"></script>
 
 </body>

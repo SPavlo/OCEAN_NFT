@@ -1,6 +1,5 @@
 @media  (max-width: 1598px) and (min-width: 525px){
     body{
-        background-size: 100% 100%;
         overflow-x: hidden;
     }
     .main__content{
@@ -168,4 +167,96 @@
     .header__burger.active span{
         transform: scale(0);
     }
+    .main__title{
+        font-size: 52px;
+    }
+    .main__text {
+        width: 100%;
+    }
+
 }
+@media  (max-width: 1440px){
+    .top__card__init{
+        display: none;
+    }
+    .collector__init{
+        display: none;
+    }
+}
+
+
+@media  (max-width: 1479px){
+    .collection__item{
+        flex: 0 1 43%;
+    }
+}
+@media  (max-width: 1200px){
+    .collection__item{
+        flex: 0 1 38%;
+        background: url(../img/mobile/collection_border.png) no-repeat;
+        background-size: 100% 100%;
+        font-size: 17px;
+        height: 61px;
+        line-height: 61.39px;
+        margin: 0;
+    }
+    .collection__img img{
+        width: 300px;
+    }
+    .collection__list{
+        gap: 30px;
+    }
+}
+@media  (max-width: 643px){
+    .collection{
+        display: block;
+    }
+    .collection__item{
+        flex: 0 1 155px;
+        background: url(../img/mobile/collection_border.png) no-repeat;
+        font-size: 11px;
+        height: 43px;
+        line-height: 43.39px;
+        margin: 0;
+
+    }
+    .collection__list{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        gap: 16.5px;
+    }
+    .collection__btn{
+        font-size: 8.3px;
+        margin-top: -2.5px;
+        margin-right: 29px;
+    }
+    .collection__btn:after{
+        content: ' ';
+        position: absolute;
+        width: 24px;
+        right: 24px;
+
+        height: 9px;
+        background: url("../img/mobile/collectors-arrow.png") no-repeat;
+    }
+    .collection__btn img{
+        display: none;
+    }
+    .collection__img{
+        margin-top: 4px;
+        margin-left: 73px;
+    }
+    .collection__img img{
+        width: 186px;
+    }
+}
+@media  (max-width: 781px) {
+    .question__block{
+        transform: scale(0.8);
+        right: 7px;
+    }
+}
+
+
+
