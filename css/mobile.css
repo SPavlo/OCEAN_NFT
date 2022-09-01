@@ -5,7 +5,8 @@
     }
     body{
 
-        background: url("../img/mobile/back.png");
+        background: url("../img/mobile/bg.png");
+        background-size: 100% 100%;
         overflow-x:hidden;
     }
     .collector__item {
@@ -805,7 +806,7 @@
 
     }
 }
-@media  (min-width: 375px) and (max-width:525px){
+@media  (min-width: 376px) and (max-width:525px){
     .top__btn{
         margin: 40px auto 0 auto;
 
