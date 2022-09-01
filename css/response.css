@@ -256,6 +256,9 @@
         transform: scale(0.8);
         right: 7px;
     }
+    .main__card{
+        right: 0;
+    }
 }
 
 
