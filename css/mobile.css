@@ -812,4 +812,33 @@
 
     }
 }
+@media (min-width: 1601px) and (max-width:1920px){
+    .top__sellers-section .blocks__wrapper{
+        margin: 30px auto;
+    }
+    .subscribe{
+        margin: 200px auto 170px;
+        width: 82%;
+    }
+    .top__cards,  .main, .collector__list{
+        margin: 40px auto;
+        width: 82%;
+    }
+}
+@media  (min-width: 1601px) and (max-width:1821px){
+    .top__sellers-section .blocks__wrapper{
+        margin: 30px auto;
+    }
+    .subscribe{
+        margin: 200px auto 170px;
+        width: 82%;
+    }
+    .top__cards, .collector__list{
+        margin: 40px auto;
+    }
+    .main{
+        width: 90%;
+
+    }
+}
 
