@@ -54,7 +54,7 @@
     .footer-mobile__item:after{
         content: ' ';
         background: url(../img/mobile/footer-arrow.svg);
-        width: 16px;
+        width: 15px;
         right: 23px;
         height: 8px;
         margin-top: 7px;
@@ -102,7 +102,19 @@
         justify-content: space-between;
         margin-top: 23px;
     }
-
+    .header__logo{
+        margin-top: -7px;
+        margin-left: 0px;
+    }
+    .header__logo img{
+        width: 15px;
+        margin-right: 2px;
+        margin-left: -2px;
+        margin-top: 7px;
+    }
+    .header__logo h3{
+        font-size: 16px;
+    }
     .header__icon{
         background: url("../img/mobile/ocean-logo.png") no-repeat ;
         margin-top: 3px;
@@ -159,7 +171,7 @@
         height: 20px;
         left: -4px;
 
-        bottom: 2px;
+        bottom: -1px;
     }
 
     .header__burger span{
@@ -212,7 +224,7 @@
     }
     .main__title{
         font-size: 41.5px;
-        margin-top: 52.5px;
+        margin-top: 58.5px;
         margin-left: 1px;
         font-family: 'Lato', sans-serif;
         letter-spacing: calc(-12*.02px);
