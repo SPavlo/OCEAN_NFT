@@ -766,7 +766,7 @@
     .footer-mobile__item:after{
         content: ' ';
         background: url(../img/mobile/footer-arrow.svg);
-        width: 16px;
+        width: 15px;
         right: 23px;
         height: 8px;
         margin-top: 7px;
