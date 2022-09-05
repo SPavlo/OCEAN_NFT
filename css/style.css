@@ -40,10 +40,16 @@ body{
 .header__logo{
     display: flex;
     align-items: center;
-    margin-top: -2px;
-    margin-left: 2px;
-    z-index: 5;
+    margin-left: 4px;
 
+}
+.header__logo img{
+    margin-right: -2px;
+}
+.header__logo h3{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 1px;
 }
 .header__icon{
     width: 140.18px;
@@ -728,6 +734,9 @@ body{
     cursor: pointer;
     color: #FFFFFF;
     background: url(../img/collection_border_hover.png) no-repeat;
+
+    background-size: 100% 100%;
+
 }
 .collection__img{
     margin-top: 161px;
