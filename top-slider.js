@@ -1,7 +1,7 @@
 new Swiper('.top__slider',{
     loop:true,
     breakpoints:{
-        0:{
+        375:{
             sliderPerView:1.13,
         },
         450:{
@@ -40,7 +40,7 @@ var swiper = new Swiper(".SwiperFirst", {
         nextEl: ".swiper-button-next",
     },
     breakpoints: {
-        0: {
+        375: {
             slidesPerView: 1.13,
             spaceBetween: 22,
         },
@@ -80,7 +80,7 @@ var swiperSecond = new Swiper(".SwiperSecond", {
         nextEl: ".swiper-button-second",
     },
     breakpoints: {
-        0: {
+        375: {
             slidesPerView: 1.13,
             spaceBetween: 22,
         },
